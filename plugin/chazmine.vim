@@ -7,6 +7,9 @@ function! s:chaz()
 
   :call Sub("toBe", "to.eql")
   :call Sub("toEqual", "to.equal")
+
+  :call Sub("toContain", "to.contain")
+
   :call Sub("toHaveBeenCalled()", "to.have.been.calledWith()")
   :call Sub("toHaveBeenCalledWith", "to.have.been.calledWith")
 
