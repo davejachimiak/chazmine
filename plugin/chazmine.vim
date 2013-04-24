@@ -7,6 +7,7 @@ function! s:chaz()
 
   :call Sub("toBe", "to\.eql")
   :call Sub("toEqual", "to\.equal")
+  :call Sub("toHaveBeenCalled()", "to\.have\.been\.called")
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""
 "                     poop                          "
