@@ -15,8 +15,7 @@ function! s:chaz()
   :call Sub("toContain", "to.contain")
 
   :call Sub("toThrow", "to.throw")
-
-  :call Sub("toHaveBeenCalled()", "to.have.been.calledWith()")
+  :call Sub("toHaveBeenCalled()", "to.have.been.called")
   :call Sub("toHaveBeenCalledWith", "to.have.been.calledWith")
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""
