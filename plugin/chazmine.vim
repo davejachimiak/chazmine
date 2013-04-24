@@ -1,15 +1,17 @@
 command! Chaz execute s:chaz()
 
+function! s:chaz()
 """""""""""""""""""""""""""""""""""""""""""""""""""""
 " Drop your Jasmine -> Chai text substitutions here "
 """""""""""""""""""""""""""""""""""""""""""""""""""""
-function! s:chaz()
+
   :call Sub("toBe", "to\.eql")
   :call Sub("toEqual", "to\.equal")
-endfunction
+
 """""""""""""""""""""""""""""""""""""""""""""""""""""
 "                     poop                          "
 """""""""""""""""""""""""""""""""""""""""""""""""""""
+endfunction
 
 function! Sub(findText, replaceText)
   let find    = a:findText
