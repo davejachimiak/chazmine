@@ -7,10 +7,10 @@ In your vundle.vim:
 Bundle 'davejachimiak/chazmine'
 ```
 
-Then `:BundleInstall` from the vim or `vim +BundleInstall +qall` from the command line.
+Then `:BundleInstall` from vim or `vim +BundleInstall +qall` from the command line.
 
 ## Updating
-`:BundleInstall` from the vim or `vim +BundleInstall +qall` from the command line.
+`:BundleInstall` from the or `vim +BundleInstall +qall` from the command line.
 
 ## Usage
 `:Chaz` will find and replace Jasmine assertions with the equivalent Chai ones. Current substitutions are listed in the `s:chaz()` function in plugin/chazmine.vim.
