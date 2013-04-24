@@ -10,8 +10,7 @@ Bundle 'davejachimiak/chazmine'
 Then `:BundleInstall` from the vim or `vim +BundleInstall +qall` from the command line.
 
 ## Usage
-`:Chaz` will find and replace Jasmine assertions with the equivalent Chai ones listed in
-the `s:chaz()` function in plugin/chazmine.vim.
+`:Chaz` will find and replace Jasmine assertions with the equivalent Chai ones. Current substitutions are listed in the `s:chaz()` function in plugin/chazmine.vim.
 
 ## Contribute
 1. Fork.
