@@ -5,9 +5,10 @@ function! s:chaz()
 " Drop your Jasmine -> Chai text substitutions here "
 """""""""""""""""""""""""""""""""""""""""""""""""""""
 
-  :call Sub("toBe", "to\.eql")
-  :call Sub("toEqual", "to\.equal")
-  :call Sub("toHaveBeenCalled()", "to\.have\.been\.called")
+  :call Sub("toBe", "to.eql")
+  :call Sub("toEqual", "to.equal")
+  :call Sub("toHaveBeenCalled()", "to.have.been.calledWith()")
+  :call Sub("toHaveBeenCalledWith", "to.have.been.calledWith")
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""
 "                     poop                          "
