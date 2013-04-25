@@ -9,6 +9,9 @@ function! s:chaz()
   :call Sub("toBe", "to.equal")
   :call Sub("toEqual", "to.eql")
 
+  :call Sub("toBeTruthy()", "to.be.true")
+  :call Sub("toBeFalsy()", "to.be.false")
+
   :call Sub("toContain", "to.contain")
 
   :call Sub("toThrow", "to.throw")
