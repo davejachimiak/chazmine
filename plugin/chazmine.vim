@@ -6,11 +6,11 @@ function! s:chaz()
 """""""""""""""""""""""""""""""""""""""""""""""""""""
 
   :call Sub("toBeUndefined()", "to.be.undefined")
-  :call Sub("toBe", "to.equal")
-  :call Sub("toEqual", "to.eql")
-
   :call Sub("toBeTruthy()", "to.be.true")
   :call Sub("toBeFalsy()", "to.be.false")
+  :call Sub("toBe", "to.equal")
+
+  :call Sub("toEqual", "to.eql")
 
   :call Sub("toContain", "to.contain")
 
