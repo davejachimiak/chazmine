@@ -5,9 +5,9 @@ function! s:chaz()
 " Drop your Jasmine -> Chai text substitutions here "
 """""""""""""""""""""""""""""""""""""""""""""""""""""
 
+  :call Sub("toBeUndefined()", "to.be.undefined")
   :call Sub("toBe", "to.equal")
   :call Sub("toEqual", "to.eql")
-  :call Sub("toBeUndefined()", "to.be.undefined")
 
   :call Sub("toContain", "to.contain")
 
