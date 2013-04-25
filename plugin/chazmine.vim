@@ -22,6 +22,7 @@ function! s:chaz()
 """""""""""""""""""""""""""""""""""""""""""""""""""""
 "                     poop                          "
 """""""""""""""""""""""""""""""""""""""""""""""""""""
+  :call Sub("not.to", "to.not")
 endfunction
 
 function! Sub(findText, replaceText)
