@@ -7,6 +7,7 @@ function! s:chaz()
 
   :call Sub("toBe", "to.equal")
   :call Sub("toEqual", "to.eql")
+  :call Sub("toBeUndefined()", "to.be.undefined")
 
   :call Sub("toContain", "to.contain")
 
