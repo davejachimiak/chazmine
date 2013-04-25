@@ -1,0 +1,1 @@
+:Chaz - find and replace Jasmine assertions with the equivalent Chai ones. Current substitutions are listed in the s:chaz() function in plugin/chazmine.vim.
