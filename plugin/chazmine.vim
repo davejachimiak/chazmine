@@ -13,6 +13,7 @@ function! s:chaz()
   :call Sub("toEqual", "to.eql")
 
   :call Sub("toContain", "to.contain")
+  :call Sub("toHaveText", "to.contain")
 
   :call Sub("toThrow", "to.throw")
 
