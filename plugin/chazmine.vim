@@ -19,6 +19,7 @@ function! s:chaz()
   :call Sub("toThrow", "to.throw")
 
   :call Sub("toHaveClass", "to.have.class")
+  :call Sub("toHaveAttr", "to.have.attr")
 
   :call Sub("toHaveBeenCalled()", "to.have.been.called")
   :call Sub("toHaveBeenCalledOnce()", "to.have.been.calledOnce")
