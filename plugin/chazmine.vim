@@ -14,6 +14,7 @@ function! s:chaz()
 
   :call Sub("toContain", "to.contain")
   :call Sub("toHaveText", "to.contain")
+  :call Sub("toMatch", "to.match")
 
   :call Sub("toThrow", "to.throw")
 
