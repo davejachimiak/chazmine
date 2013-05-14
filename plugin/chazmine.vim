@@ -8,6 +8,8 @@ function! s:chaz()
   :call Sub("toBeUndefined()", "to.be.undefined")
   :call Sub("toBeTruthy()", "to.be.true")
   :call Sub("toBeFalsy()", "to.be.false")
+  :call Sub("toBeHidden()", "to.be.hidden")
+  :call Sub("toBeVisible()", "to.be.visible")
   :call Sub("toBe", "to.equal")
 
   :call Sub("toEqual", "to.eql")
